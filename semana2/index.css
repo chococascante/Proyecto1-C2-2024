@@ -1,0 +1,37 @@
+body {
+  background-color: #f1f1f1;
+}
+
+p {
+  font-size: 32px;
+  color: blueviolet;
+}
+
+#seccion-1 {
+  background-color: darksalmon;
+}
+
+.patito {
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+html {
+  font-size: 4px;
+}
+
+section {
+  /* 100% del viewport height */
+  width: 100vh;
+}
+
+button {
+  /* Múltiplo del tamaño de letra de la etiqueta HTML */
+  font-size: 2rem;
+}
+
+h1 {
+  /* Múltiplo del tamaño de letra del padre para las propiedades tipográficas */
+  /* Para otras propiedades usa su propio tamaño de letra */
+  font-size: 4em;
+}

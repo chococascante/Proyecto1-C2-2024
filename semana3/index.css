@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 10px 36px;
+}
+
+.fila {
+  display: flex;
+  align-items: center;
+}
+
+.navegacion {
+  gap: 39px;
+}
+
+.enlaces {
+  gap: 24px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.icono {
+  height: 30px;
+}
