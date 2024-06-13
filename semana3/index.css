@@ -4,10 +4,10 @@ body {
 }
 
 .encabezado {
-  background-color: black;
   color: white;
   justify-content: space-between;
   padding: 10px 36px;
+  position: fixed;
 }
 
 .fila {
@@ -29,4 +29,11 @@ body {
 
 .icono {
   height: 30px;
+}
+
+.fondo {
+  background-color: #000;
+  background-image: url("https://www.wargamer.com/wp-content/sites/wargamer/2022/12/warhammer-40k-tau-empire-arrayed.jpg");
+  width: 100vw;
+  height: 100vh;
 }

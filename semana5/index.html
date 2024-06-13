@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <form class="columna">
+        <div class="formulario-fila">
+          <div class="columna">
+            <label for="nombre">Nombre (Obligatorio):</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="columna">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required />
+          </div>
+        </div>
+
+        <div class="formulario-fila">
+          <div class="columna">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              inputmode="email"
+              required
+            />
+          </div>
+          <div class="columna">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+        </div>
+        <div class="formulario-fila">
+          <div class="columna">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" inputmode="tel" />
+          </div>
+          <div class="columna">
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" />
+          </div>
+        </div>
+
+        <div class="columna">
+          <label for="pais">País:</label>
+          <select name="pais" id="pais">
+            <option value="mx">México</option>
+            <option value="us">Estados Unidos</option>
+            <option value="ca">Canadá</option>
+          </select>
+        </div>
+
+        <div class="columna">
+          <label>Pais</label>
+          <input type="radio" name="apellido" value="mx" id="mx" />
+          <label for="mx">México</label>
+          <input type="radio" name="pais" value="us" id="us" />
+          <label for="us">Estados Unidos</label>
+          <input type="radio" name="pais" value="ca" id="ca" />
+          <label for="ca">Canadá</label>
+        </div>
+
+        <div class="columna">
+          <label for="comentarios">Comentarios:</label>
+          <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+
+        <div class="columna">
+          <label for="terminos">Acepto términos y condiciones:</label>
+          <input type="checkbox" name="terminos" id="terminos" required />
+        </div>
+
+        <button>Enviar formulario</button>
+      </form>
+    </main>
+  </body>
+</html>
